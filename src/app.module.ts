@@ -9,7 +9,7 @@ import { ProductsModule } from './products/products.module';
   imports: [
     ProductsModule,
     MongooseModule.forRoot(
-      'mongodb+srv://maximilian:B3dqPzooRLzFiVYm@cluster0-ntrwp.mongodb.net/nestjs-demo?retryWrites=true&w=majority',
+      'mongodb+srv://Huzaifa:helloworld@cluster0.jgmhb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     ),
   ],
   controllers: [AppController],
